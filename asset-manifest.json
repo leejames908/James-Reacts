@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/James-Reacts/static/css/main.1ba71ab3.css",
+    "main.js": "/James-Reacts/static/js/main.ec46b475.js",
+    "static/js/787.a3bd09ad.chunk.js": "/James-Reacts/static/js/787.a3bd09ad.chunk.js",
+    "static/media/background1.JPG": "/James-Reacts/static/media/background1.2f0ec121e24fe000bce5.JPG",
+    "index.html": "/James-Reacts/index.html",
+    "main.1ba71ab3.css.map": "/James-Reacts/static/css/main.1ba71ab3.css.map",
+    "main.ec46b475.js.map": "/James-Reacts/static/js/main.ec46b475.js.map",
+    "787.a3bd09ad.chunk.js.map": "/James-Reacts/static/js/787.a3bd09ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ba71ab3.css",
+    "static/js/main.ec46b475.js"
+  ]
+}
