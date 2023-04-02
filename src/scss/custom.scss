@@ -1,0 +1,48 @@
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+$spacer: 0.5rem; //8px
+
+$spacers: (
+  0: 0,
+  "0-25": $spacer * 0.25,
+  "0-5": $spacer * 0.5,
+  "0-75": $spacer * 0.75,
+  1: $spacer * 1,
+  "1-5": $spacer * 1.5,
+  2: $spacer * 2,
+  3: $spacer * 3,
+  4: $spacer * 4,
+  5: $spacer * 5,
+  6: $spacer * 6,
+  7: $spacer * 7,
+  8: $spacer * 8,
+  9: $spacer * 9,
+  10: $spacer * 10,
+);
+
+//  TODO: set a light and dark color
+// light color is like an off white bg color that is like "white"
+// dark color is a color that could also be used as a text color
+
+$primary: #A9D67C;
+$secondary: #7CD6D6;
+
+// Required
+@import "../../node_modules/bootstrap/scss/variables";
+
+$custom-theme-colors: (
+    "j-red": #FF8C73,
+    "j-blue": #6FCFF7,
+    "j-green": #E1FFA1,
+    "j-yellow": #FFC700
+);
+
+//This adds the colors we set up to the already established bootstrap themes/colors
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
+
+
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
