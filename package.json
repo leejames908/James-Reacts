@@ -18,7 +18,7 @@
   },
   "scripts": {
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build -r git@github.com:leejames908/James-Reacts.git",
+    "deploy" : "gh-pages -d build -r https://github.com/leejames908/James-Reacts.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
