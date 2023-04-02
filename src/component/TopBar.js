@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { imagePath } from '../utils/helpers'
 
 export default function TopBar(props) {
   return (
@@ -8,7 +9,7 @@ export default function TopBar(props) {
 
 
      <div class= "d-flex justify-content-end">
-      <Link to= "/"><img alt ='this is the title' id='title1' src ={'./images/title1.png'}/></Link>
+      <Link to= "/"><img alt ='this is the title' id='title1' src ={`${imagePath}/title1.png`}/></Link>
     </div>
 
 
