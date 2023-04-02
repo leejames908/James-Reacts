@@ -11,7 +11,8 @@ import {
 } from "react-router-dom";
 import Root from './routes/Root';
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+ [
   {
     path: "/",
     element: <Root/>,
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+], { basename: "/James-Reacts" });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
