@@ -1,6 +1,6 @@
 {
   "name": "james-web-react",
-  "homepage": "http://{leejames908}.github.io/{James-Reacts}",
+  "homepage": "http://leejames908.github.io/James-Reacts",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy" : "gh-pages -d build -r git@github.com:leejames908/James-Reacts.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
