@@ -1,10 +1,6 @@
 // Required
 @import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/maps";
 @import "../../node_modules/bootstrap/scss/mixins";
-@import "../../node_modules/bootstrap/scss/root";
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 $spacer: 0.5rem; //8px
 
@@ -34,6 +30,7 @@ $primary: #A9D67C;
 $secondary: #7CD6D6;
 
 // Required
+@import "../../node_modules/bootstrap/scss/variables";
 
 $custom-theme-colors: (
     "j-red": #FF8C73,
@@ -44,3 +41,8 @@ $custom-theme-colors: (
 
 //This adds the colors we set up to the already established bootstrap themes/colors
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
+
+
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
