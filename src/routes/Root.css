@@ -36,7 +36,7 @@ li a {
 }
 
 .j-bg-img {
-  background:url('/public/images/background1.JPG');
+  background:url('/public/images/background1.jpg');
   position: fixed;
   z-index: -1;  
   min-height : 100%;
