@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import About from './routes/About'
+import About from './routes/About';
 import reportWebVitals from './reportWebVitals';
 import './scss/custom.scss';
 import Home from './routes/Home';
+import Illustration from './routes/Illustration';
+import BackgroundDesign from './routes/BackgroundDesign.js';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -24,6 +27,14 @@ const router = createBrowserRouter(
       {
         path: "about",
         element: <About />,
+      },
+      {
+        path: "illustration",
+        element: <Illustration/>,
+      },
+      {
+        path: "backgroundDesign",
+        element: <BackgroundDesign/>
       },
     ],
   },

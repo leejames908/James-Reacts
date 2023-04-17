@@ -6,17 +6,13 @@ export default function TopBar(props) {
   return (
     <div>
      <div class="jamesss-spacer"></div>
-
-
      <div class= "d-flex justify-content-end">
       <Link to= "/"><img alt ='this is the title' id='title1' src ={`${imagePath}/title1.png`}/></Link>
     </div>
-
-
      <div class="d-flex justify-content-between mx-4">
         <div class="d-flex justify-content-start">
           <ul class="list-group list-group-horizontal">
-             <button type="button" class="btn btn-primary mx-1">Illustration</button>
+             <Link to="illustration" class = "btn btn-primary mx-1">Illustration</Link>
 
              <button type="button" class="btn btn-primary mx-1">Background Design</button>
 

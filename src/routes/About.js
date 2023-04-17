@@ -7,7 +7,7 @@ export default function about() {
 
       <div class="d-flex justify-content-center">
         {/*This is for profile image*/}
-          <img src ={`${imagePath}/icon1.jpg`} alt = "icon" class = "m-3 w-25 h-25 rounded-4"/>
+          <img src ={`${imagePath}/icon1.jpg`} alt = "icon" class = "m-3 w-10 h-auto rounded-4"/>
 
         {/*This will contain the description and contact details and social media buttons*/}
         <div class = "w-25 m-3 align-middle">
